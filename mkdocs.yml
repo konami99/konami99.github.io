@@ -1,1 +1,25 @@
-site_name: My Docs
+site_name: Richard Chou
+theme:
+  name: material
+plugins:
+  - blog
+  - search
+theme:
+  name: material
+  features:
+    - navigation.instant
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: orange
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+site_url: https://konami99.github.io/

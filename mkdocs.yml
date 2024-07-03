@@ -6,6 +6,7 @@ plugins:
       archive: false
   - search
 nav:
+  - index.md
   - Blog:
     - blog/index.md
   - about-me.md

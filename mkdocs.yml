@@ -1,14 +1,20 @@
 site_name: Richard Chou
-theme:
-  name: material
 plugins:
-  - blog
+  - blog:
+      draft_if_future_date: true
+      draft: false
+      archive: false
   - search
+nav:
+  - Blog:
+    - blog/index.md
+  - about-me.md
 theme:
   name: material
   logo: assets/images/richardchou-small.png
   features:
     - navigation.instant
+    - navigation.indexes
   language: en
   palette:
     - scheme: default
